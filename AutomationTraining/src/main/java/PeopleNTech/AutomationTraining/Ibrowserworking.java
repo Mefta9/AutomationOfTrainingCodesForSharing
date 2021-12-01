@@ -18,7 +18,7 @@ public class Ibrowserworking {
 	//CALLING CONSTRUCTOR OF CHROME DRIVE
 	driver = new ChromeDriver();
 		
-	driver.navigate().to("https://www.ebay.com/n/all-categories");		
+	driver.navigate().to("https://www.amazon.com");		
 	driver.manage().window().maximize(); // maximizing the page
 	
 	Thread.sleep(6000); // pause for 6 seconds added interrupedExceoption after main method above
